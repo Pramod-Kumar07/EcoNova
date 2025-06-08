@@ -13,7 +13,6 @@ const LandingPage = async () => {
   if (!landingPage) return <div>No data available.</div>;
 
   const { fields }: LandingPageInterface | any = landingPage;
-  console.log("fields", fields);
 
   return (
     <div className="bg-gray-800 flex flex-col">
