@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.backGround {
+  background-image: radial-gradient(circle, #4a8ca3, #c5f0f7, #4a8ca3);
+}
